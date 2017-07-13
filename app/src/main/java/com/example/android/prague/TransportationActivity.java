@@ -22,12 +22,12 @@ public class TransportationActivity extends AppCompatActivity {
         // Create a list of words
         // order: name, desc, price, contact, imageID
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("TICK TACK", "White Audi A6 cars", "25 CZK / km", "www.ticktack.cz", R.drawable.tick_tack));
-        items.add(new Item("AAA taxi", "Yellow cars, usualy Skoda Octavia / Superb", "19 CZK / km", "www.aaataxi.cz", R.drawable.aaa));
-        items.add(new Item("Hop-On Hop-Off", "Bus tour rides around city with stops", "550 CZK / tour", "city-sightseeing.com", R.drawable.hopon));
-        items.add(new Item("Liftago", "An app you can download and search for any taxi in the city", "depends on taxi", "www.liftago.com", R.drawable.liftago));
-        items.add(new Item("UBER", "Cheapest taxi you can find. Drives anyone with car, no taxis.", "depends on driver", "www.uber.com", R.drawable.uber));
-        items.add(new Item("DPP", "Public transportation - trams, buses, subway.", "32 CZK / 90 min \n110 CZK / 24 h", "www.dpp.cz", R.drawable.dpp));
+        items.add(new Item(getString(R.string.T1_1), getString(R.string.T1_2), getString(R.string.T1_3), getString(R.string.T1_4), R.drawable.tick_tack));
+        items.add(new Item(getString(R.string.T2_1), getString(R.string.T2_2), getString(R.string.T2_3), getString(R.string.T2_4), R.drawable.aaa));
+        items.add(new Item(getString(R.string.T3_1), getString(R.string.T3_2), getString(R.string.T3_3), getString(R.string.T3_4), R.drawable.hopon));
+        items.add(new Item(getString(R.string.T4_1), getString(R.string.T4_2), getString(R.string.T4_3), getString(R.string.T4_4), R.drawable.liftago));
+        items.add(new Item(getString(R.string.T5_1), getString(R.string.T5_2), getString(R.string.T5_3), getString(R.string.T5_4), R.drawable.uber));
+        items.add(new Item(getString(R.string.T6_1), getString(R.string.T6_2), getString(R.string.T6_3), getString(R.string.T6_4), R.drawable.dpp));
 
         ItemAdapter adapter = new ItemAdapter(this, items);
 

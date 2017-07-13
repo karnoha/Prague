@@ -22,11 +22,11 @@ public class LandmarksActivity extends AppCompatActivity {
         // Create a list of words
         // order: name, desc, price, contact, imageID
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Karlův most", "historic bridge that crosses the Vltava river", "free", "www.karluvmostpraha.eu", R.drawable.karluv_most));
-        items.add(new Item("Vyšehrad", "historic fort built in the 10th century", "free", "www.praha-vysehrad.cz", R.drawable.vysehrad));
-        items.add(new Item("Staroměstský orloj", "medieval astronomical clock installed in 1410", "free\n250 CZK to tower", "-", R.drawable.orloj));
-        items.add(new Item("Katedrála svatého Víta", "Roman Catholic metropolitan cathedral", "free", "www.katedralasvatehovita.cz/cs", R.drawable.vit));
-        items.add(new Item("Petřínská rozhledna", "63.5-metre-tall steel-framework tower", "120 CZK", "www.petrinska-rozhledna.cz", R.drawable.petrin));
+        items.add(new Item(getString(R.string.L1_1), getString(R.string.L1_2), getString(R.string.L1_3), getString(R.string.L1_4), R.drawable.karluv_most));
+        items.add(new Item(getString(R.string.L2_1), getString(R.string.L2_2), getString(R.string.L2_3), getString(R.string.L2_4), R.drawable.vysehrad));
+        items.add(new Item(getString(R.string.L3_1), getString(R.string.L3_2), getString(R.string.L3_3), getString(R.string.L3_4), R.drawable.orloj));
+        items.add(new Item(getString(R.string.L4_1), getString(R.string.L4_2), getString(R.string.L4_3), getString(R.string.L4_4), R.drawable.vit));
+        items.add(new Item(getString(R.string.L5_1), getString(R.string.L5_2), getString(R.string.L5_3), getString(R.string.L5_4), R.drawable.petrin));
 
         ItemAdapter adapter = new ItemAdapter(this, items);
 

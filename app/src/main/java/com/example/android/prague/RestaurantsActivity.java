@@ -22,10 +22,10 @@ public class RestaurantsActivity extends AppCompatActivity {
         // Create a list of words
         // order: name, desc, price, contact, imageID
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Brasileiro Ambiente", "All you can eat, meat meat meat...", "785 CZK", "brasileiro-slovanskydum.ambi.cz", R.drawable.ambiente));
-        items.add(new Item("Bejzment", "Finest american burgers in Prague", "250 CZK", "www.bejzment.cz", R.drawable.bejzment));
-        items.add(new Item("The PUB", "Czech restaurant with beer taps on each table", "200 CZK", "www.thepub.cz", R.drawable.pub));
-        items.add(new Item("Neklid", "Little restaurant for locals", "150 CZK", "www.neklid.com", R.drawable.neklid));
+        items.add(new Item(getString(R.string.R1_1), getString(R.string.R1_2), getString(R.string.R1_3), getString(R.string.R1_4), R.drawable.ambiente));
+        items.add(new Item(getString(R.string.R2_1), getString(R.string.R2_2), getString(R.string.R2_3), getString(R.string.R2_4), R.drawable.bejzment));
+        items.add(new Item(getString(R.string.R3_1), getString(R.string.R3_2), getString(R.string.R3_3), getString(R.string.R3_4), R.drawable.pub));
+        items.add(new Item(getString(R.string.R4_1), getString(R.string.R4_2), getString(R.string.R4_3), getString(R.string.R4_4), R.drawable.neklid));
 
 
         ItemAdapter adapter = new ItemAdapter(this, items);

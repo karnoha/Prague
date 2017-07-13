@@ -11,5 +11,109 @@
     <string name="restaurants">Restaurants</string>
     <string name="transportation">Transport</string>
 
+    <!--=============HOTELS============-->
+    <string name="H1_1">Prague Apartments</string>
+    <string name="H1_2">In the centre, but still in a quiet location</string>
+    <string name="H1_3">2323 CZK</string>
+    <string name="H1_4">www.booking.com</string>
 
+    <string name="H2_1">Hotel Kampa</string>
+    <string name="H2_2">City center, next to Charles Bridge</string>
+    <string name="H2_3">3106 CZK</string>
+    <string name="H2_4">www.booking.com</string>
+
+    <string name="H3_1">Kolej Strahov</string>
+    <string name="H3_2">Cheap solution at college dormitory</string>
+    <string name="H3_3">418 CZK</string>
+    <string name="H3_4">www.suz.cvut.cz/koleje/</string>
+
+    <string name="H4_1">Airbnb flats</string>
+    <string name="H4_2">Choose from many flats in Prague, price varies.</string>
+    <string name="H4_3">from 776 CZK</string>
+    <string name="H4_4">www.airbnb.cz</string>
+
+    <string name="H5_1">Aquapalace hotel</string>
+    <string name="H5_2">At the edge of Prague in a giant aqualand</string>
+    <string name="H5_3">3887 CZK</string>
+    <string name="H5_4">www.aquapalacehotel.cz</string>
+
+    <!--=============LANDMARKS============-->
+    <string name="L1_1">Karlův most</string>
+    <string name="L1_2">historic bridge that crosses the Vltava river</string>
+    <string name="L1_3">free</string>
+    <string name="L1_4">www.karluvmostpraha.eu</string>
+
+    <string name="L2_1">Vyšehrad</string>
+    <string name="L2_2">historic fort built in the 10th century</string>
+    <string name="L2_3">free</string>
+    <string name="L2_4">www.praha-vysehrad.cz</string>
+
+    <string name="L3_1">Staroměstský orloj</string>
+    <string name="L3_2">medieval astronomical clock installed in 1410</string>
+    <string name="L3_3">free
+250 CZK to tower</string>
+    <string name="L3_4">-</string>
+
+    <string name="L4_1">Katedrála svatého Víta</string>
+    <string name="L4_2">Roman Catholic metropolitan cathedral</string>
+    <string name="L4_3">free</string>
+    <string name="L4_4">www.katedralasvatehovita.cz/cs</string>
+
+    <string name="L5_1">Petřínská rozhledna</string>
+    <string name="L5_2">63.5-metre-tall steel-framework tower</string>
+    <string name="L5_3">120 CZK</string>
+    <string name="L5_4">www.petrinska-rozhledna.cz</string>
+
+    <!--=============RESTAURANT============-->
+    <string name="R1_1">Brasileiro Ambiente</string>
+    <string name="R1_2">All you can eat, lots of meat.</string>
+    <string name="R1_3">785 CZK</string>
+    <string name="R1_4">brasileiro-slovanskydum.ambi.cz</string>
+
+    <string name="R2_1">Bejzment</string>
+    <string name="R2_2">Finest american burgers in Prague</string>
+    <string name="R2_3">250 CZK</string>
+    <string name="R2_4">www.bejzment.cz</string>
+
+    <string name="R3_1">The PUB</string>
+    <string name="R3_2">Czech restaurant with beer taps on each table</string>
+    <string name="R3_3">200 CZK</string>
+    <string name="R3_4">www.thepub.cz</string>
+
+    <string name="R4_1">Neklid</string>
+    <string name="R4_2">Little restaurant for locals</string>
+    <string name="R4_3">150 CZK</string>
+    <string name="R4_4">www.neklid.com</string>
+
+    <!--=============TRANSPORT============-->
+    <string name="T1_1">TICK TACK</string>
+    <string name="T1_2">White Audi A6 cars</string>
+    <string name="T1_3">25 CZK / km</string>
+    <string name="T1_4">www.ticktack.cz</string>
+
+    <string name="T2_1">AAA taxi</string>
+    <string name="T2_2">Yellow cars, usualy Skoda Octavia / Superb</string>
+    <string name="T2_3">19 CZK / km</string>
+    <string name="T2_4">www.aaataxi.cz</string>
+
+    <string name="T3_1">Hop-On Hop-Off</string>
+    <string name="T3_2">Bus tour rides around city with stops</string>
+    <string name="T3_3">550 CZK / tour</string>
+    <string name="T3_4">city-sightseeing.com</string>
+
+    <string name="T4_1">Liftago</string>
+    <string name="T4_2">An app you can download and search for any taxi in the city</string>
+    <string name="T4_3">depends on taxi</string>
+    <string name="T4_4">www.liftago.com</string>
+
+    <string name="T5_1">UBER</string>
+    <string name="T5_2">Cheapest taxi you can find. Drives anyone with car, no taxis.</string>
+    <string name="T5_3">depends on driver</string>
+    <string name="T5_4">www.uber.com</string>
+
+    <string name="T6_1">DPP</string>
+    <string name="T6_2">Public transportation - trams, buses, subway.</string>
+    <string name="T6_3">32 CZK / 90 min
+110 CZK / 24 h</string>
+    <string name="T6_4">www.dpp.cz</string>
 </resources>
