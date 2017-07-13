@@ -25,8 +25,8 @@ public class LandmarksActivity extends AppCompatActivity {
         items.add(new Item("Karlův most", "historic bridge that crosses the Vltava river", "free", "www.karluvmostpraha.eu", R.drawable.karluv_most));
         items.add(new Item("Vyšehrad", "historic fort built in the 10th century", "free", "www.praha-vysehrad.cz", R.drawable.vysehrad));
         items.add(new Item("Staroměstský orloj", "medieval astronomical clock installed in 1410", "free\n250 CZK to tower", "-", R.drawable.orloj));
-        items.add(new Item("Katedrála svatého Víta", "historic fort built in the 10th century", "free", "www.praha-vysehrad.cz", R.drawable.vysehrad));
-        items.add(new Item("Vyšehrad", "historic fort built in the 10th century", "free", "www.praha-vysehrad.cz", R.drawable.vysehrad));
+        items.add(new Item("Katedrála svatého Víta", "Roman Catholic metropolitan cathedral", "free", "www.katedralasvatehovita.cz/cs", R.drawable.vit));
+        items.add(new Item("Petřínská rozhledna", "63.5-metre-tall steel-framework tower", "120 CZK", "www.petrinska-rozhledna.cz", R.drawable.petrin));
 
         ItemAdapter adapter = new ItemAdapter(this, items);
 
