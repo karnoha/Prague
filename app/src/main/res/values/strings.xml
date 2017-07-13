@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Prague</string>
+
+    <!--==================Main page=====================-->
+    <string name="welcome">Welcome to Prague!</string>
+    <string name="image_content_desc">Picture of Prague</string>
+    <string name="choose_category">Choose a category, please</string>
+    <!--category names-->
+    <string name="landmarks">Landmarks</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="transportation">Transport</string>
+
+
+</resources>
